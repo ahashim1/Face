@@ -10,11 +10,16 @@
 		41713AE12012FC6A00513808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713AE02012FC6A00513808 /* AppDelegate.swift */; };
 		41713AE32012FC6A00513808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713AE22012FC6A00513808 /* ViewController.swift */; };
 		41713AE62012FC6A00513808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41713AE42012FC6A00513808 /* Main.storyboard */; };
-		41713AE92012FC6A00513808 /* Face.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41713AE72012FC6A00513808 /* Face.xcdatamodeld */; };
 		41713AEB2012FC6A00513808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41713AEA2012FC6A00513808 /* Assets.xcassets */; };
 		41713AEE2012FC6A00513808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41713AEC2012FC6A00513808 /* LaunchScreen.storyboard */; };
 		41713AF92012FC6A00513808 /* FaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713AF82012FC6A00513808 /* FaceTests.swift */; };
 		41713B042012FC6A00513808 /* FaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B032012FC6A00513808 /* FaceUITests.swift */; };
+		41713B172012FCC300513808 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B112012FCC200513808 /* extensions.swift */; };
+		41713B182012FCC300513808 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B122012FCC200513808 /* Triangle.swift */; };
+		41713B192012FCC300513808 /* Circumcircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B132012FCC200513808 /* Circumcircle.swift */; };
+		41713B1A2012FCC300513808 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B142012FCC200513808 /* Vertex.swift */; };
+		41713B1B2012FCC300513808 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B152012FCC300513808 /* Line.swift */; };
+		41713B1C2012FCC300513808 /* DelaunaySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41713B162012FCC300513808 /* DelaunaySwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		41713AE02012FC6A00513808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41713AE22012FC6A00513808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41713AE52012FC6A00513808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41713AE82012FC6A00513808 /* Face.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Face.xcdatamodel; sourceTree = "<group>"; };
 		41713AEA2012FC6A00513808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41713AED2012FC6A00513808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41713AEF2012FC6A00513808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		41713AFF2012FC6A00513808 /* FaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41713B032012FC6A00513808 /* FaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceUITests.swift; sourceTree = "<group>"; };
 		41713B052012FC6A00513808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41713B112012FCC200513808 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		41713B122012FCC200513808 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		41713B132012FCC200513808 /* Circumcircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circumcircle.swift; sourceTree = "<group>"; };
+		41713B142012FCC200513808 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		41713B152012FCC300513808 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		41713B162012FCC300513808 /* DelaunaySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelaunaySwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				41713AE02012FC6A00513808 /* AppDelegate.swift */,
 				41713AE22012FC6A00513808 /* ViewController.swift */,
 				41713AE42012FC6A00513808 /* Main.storyboard */,
+				41713B132012FCC200513808 /* Circumcircle.swift */,
+				41713B162012FCC300513808 /* DelaunaySwift.swift */,
+				41713B112012FCC200513808 /* extensions.swift */,
+				41713B152012FCC300513808 /* Line.swift */,
+				41713B122012FCC200513808 /* Triangle.swift */,
+				41713B142012FCC200513808 /* Vertex.swift */,
 				41713AEA2012FC6A00513808 /* Assets.xcassets */,
 				41713AEC2012FC6A00513808 /* LaunchScreen.storyboard */,
 				41713AEF2012FC6A00513808 /* Info.plist */,
-				41713AE72012FC6A00513808 /* Face.xcdatamodeld */,
 			);
 			path = Face;
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41713B192012FCC300513808 /* Circumcircle.swift in Sources */,
 				41713AE32012FC6A00513808 /* ViewController.swift in Sources */,
 				41713AE12012FC6A00513808 /* AppDelegate.swift in Sources */,
-				41713AE92012FC6A00513808 /* Face.xcdatamodeld in Sources */,
+				41713B1C2012FCC300513808 /* DelaunaySwift.swift in Sources */,
+				41713B182012FCC300513808 /* Triangle.swift in Sources */,
+				41713B1B2012FCC300513808 /* Line.swift in Sources */,
+				41713B1A2012FCC300513808 /* Vertex.swift in Sources */,
+				41713B172012FCC300513808 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,19 +582,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		41713AE72012FC6A00513808 /* Face.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				41713AE82012FC6A00513808 /* Face.xcdatamodel */,
-			);
-			currentVersion = 41713AE82012FC6A00513808 /* Face.xcdatamodel */;
-			path = Face.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 41713AD52012FC6A00513808 /* Project object */;
 }
